@@ -1,0 +1,26 @@
+{
+    "name": "switch youtube shorts player",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Redirects youtube shorts to the normal player",
+    "icons": {
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png",
+        "256": "256.png"
+    },
+    "host_permissions": [
+        "*://www.youtube.com/shorts/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.youtube.com/*"
+            ],
+            "js": [
+                "yt.js"
+            ],
+            "run_at": "document_start"
+        }
+    ]
+}
