@@ -1,3 +1,5 @@
+# Checkout YouTube++ for this + more functionality: [https://github.com/JacobSussan/YouTube-Plus-Plus](https://github.com/JacobSussan/YouTube-Plus-Plus)
+
 # switch-youtube-shorts-player
 
 Chrome/Chromium Extension to Change the YouTube Shorts Player to the Normal YouTube Player
